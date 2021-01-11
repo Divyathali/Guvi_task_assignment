@@ -1,0 +1,6 @@
+-----------------------------------------------------------
+How to copy by value a composite datatype (array+objects). 
+-----------------------------------------------------------
+ Copy by value deals with value of the actual parameters only.
+ its not identify the same pointer address.
+ its only deals with parameters - so it worked in array,objects,array+objects.

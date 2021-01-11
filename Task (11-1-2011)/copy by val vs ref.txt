@@ -1,0 +1,9 @@
+------------------------------------
+copy by value vs copy by reference
+------------------------------------
+copy by value: 
+1.Deals with actual parameters values.so the varible of the assignment is not affected.
+2.the pointers/memory used in seperted address location.
+copy by reference: 
+1.Deals with actual parameters address.So the varible should be affected in the assignment.
+2.The pointers/memory pointout the same address.
