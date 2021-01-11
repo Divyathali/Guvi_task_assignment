@@ -1,0 +1,17 @@
+Currently most of the systems used in HTTP 1.1.
+
+HTTP 0.9,1 has a drawback of data handshaking,data loss issues,Data safety,data priority management issues.The previous issues overcome by HTTP1.1.
+
+HTTP 2 has better Encryption/decryption methods for data safety than HTTP 1.1.but it struggles in network congestion issues, so it holds in under development process.
+
+HTTP 2,HTTP 3 is under the development stages.The both HTTP is dealing with Unlimited data transfer and excellent User experiences.
+
+Cause for Development:
+
+    1.Data Loss.
+    2.Network congestion.
+    3.Network loss and data safety.
+    4.UDP packet transfer.
+    5.Multiplexing Issues.
+
+HTTP3: Both HTTP/1.1 and HTTP/2 use TCP as their transport. HTTP/3 uses QUIC, a transport layer network protocol developed initially by Google where user space congestion control is used over the UDP. The switch to QUIC aims to fix a major problem of HTTP/2 called “head-of-line blocking”: because the parallel nature of HTTP/2’s multiplexing is not visible to TCP loss recovery mechanisms, a lost or reordered packet causes all active transactions to experience a stall regardless of whether that transaction was impacted by the lost packet. Because QUIC provides native multiplexing, lost packets only impact the streams where data has been lost.

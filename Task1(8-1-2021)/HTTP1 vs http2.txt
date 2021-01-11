@@ -1,0 +1,13 @@
+Http1 is used in first discovery of internet platform for research purpose,and it contains the basic half duplex methods of hand-shacking.The message should be in the proper order to deliver the client otherwise it is failed and send whole message again is necessary.It’s look like one line traffic platform.
+
+For this basic drawback and time consuming process,HTTP2 was invented.its the first evaluation of internet designing or developing the pattern of transferring data in the Network platform.HTTP2 is the bit stream methodology contains-
+
+1.It created the data Packet & data stream mechanism.
+
+2.It was newly introducing Encryption/decryption methods and check the data loss methods(hash,error checking).
+
+3.Designing new and improved version of handshaking mechanism and it created full duplex mode.
+
+4.TCP/IP and UDP method was introduced.So the data could be send in any order as possible to get the ordered data without loss.
+
+5.Development in HTTP2 ,it created the separate virtual cache memory for the purpose of pages loading ASAP possible.(etc..,)
