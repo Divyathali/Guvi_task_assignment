@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+#myDiv {
+  -ms-transform: rotate(20deg);
+  transform: rotate(20deg);
+}
+#myDiv1 {
+  -ms-transform: matrix(1, 2, 3, 4, 5, 6);
+  transform: matrix(1, 2, 3, 4, 5, 6);
+}
+#myDiv2 {
+  -ms-transform: translate(120px, 50%);
+  transform: translate(120px, 50%);
+}
+#myDiv3 {
+  -ms-transform: scale(2, 0.5);
+  transform: scale(2, 0.5);
+}
+#myDiv4 {
+  -ms-transform: rotate(0.5turn);
+  transform: rotate(0.5turn);
+}
+
+#myDiv5 {
+  -ms-transform: scale(0.5) translate(-100%, -100%);
+  transform: scale(0.5) translate(-100%, -100%);
+}
+
+
+</style>
+</head>
+<body>
+
+<h1>The rotate() Method</h1>
+
+<div>
+This a normal div element.
+</div>
+
+<div id="myDiv">
+This div element is rotated clockwise 20 degrees.
+</div>
+<div id="myDiv4">
+    This div element is rotated clockwise 20 degrees.
+</div>
+<div id="myDiv2">
+    This div element is rotated clockwise 20 degrees.
+</div>
+<div id="myDiv">
+    This div element is rotated clockwise 20 degrees.
+</div>
+<div id="myDiv4">
+    This div element is rotated clockwise 20 degrees.
+</div>
+<div id="myDiv5">
+    This div element is rotated clockwise 20 degrees.
+</div>
+
+</body>

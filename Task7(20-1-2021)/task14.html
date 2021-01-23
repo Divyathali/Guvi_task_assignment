@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    
+#bitmap {
+  width: 200px;
+  background-color: #ffa;
+  border: 36px solid orange;
+  margin: 30px;
+  padding: 10px;
+
+  border-image:
+      url("https://mdn.mozillademos.org/files/4127/border.png")  /* source */
+      27 /                    /* slice */
+      36px 28px 18px 8px /    /* width */
+      18px 14px 9px 4px       /* outset */
+      round;                  /* repeat */
+}
+
+
+</style>
+</head>
+<body>
+<p id="bitmap">Drop caps can be used to <br>add emphasis to blocks <br>of text but know they <br>can affect readability.</p>
+
+
+</body>
+</html>
